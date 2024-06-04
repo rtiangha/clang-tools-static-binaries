@@ -12,7 +12,7 @@ jobs:
         os: [ windows ]
         include:
           - clang-version: 18
-            release: llvm-project-18.1.5.src
+            release: llvm-project-18.1.6.src
           - os: windows
             runner: windows-latest
             os-cmake-args: '-Thost=x64 -DCMAKE_CXX_FLAGS="/MP /std:c++14" -DLLVM_USE_CRT_MINSIZEREL="MT"'
